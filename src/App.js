@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect,useState } from 'react';
 import './App.css';
+import {BrowserRouter,Route,Switch, useHistory} from 'react-router-dom';
+import Home from './components/screens/Home';
+import Design from './components/screens/Design';
+import Architecture from './components/screens/Architecture';
+import Nature from './components/screens/Nature';
+import Navbar from './components/Navbar'
+
+
+const Routing= ()=> {
+  return (
+    <Switch>
+      <Route exact path ="/">
+        <Home />
+      </Route>
+      <Route path ="/design">
+        <Design />
+      </Route>
+      <Route path ="/nature">
+        <Nature />
+      </Route>
+      <Route path ="/architecture">
+      <Architecture />
+      </Route>
+    </Switch> 
+   )
+   
+}
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <Navbar />
+    <Routing />
+  </BrowserRouter>
+  )
 }
+
 
 export default App;
