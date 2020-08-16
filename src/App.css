@@ -4,7 +4,73 @@
 }
 
 
-.image {
+.header {
   width: 100%;
-  height: 600px;
+  height: 700px;
+}
+
+.calculator {
+  margin: 0px 60px;
+  float: left;
+}
+
+.rectangle-calculator {
+  float: right;
+  margin-right: 90px;
+}
+
+body {
+  background-color: #d7cece;
+}
+
+h3 {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  line-height: 5rem;
+  color: #010c0e;
+}
+
+.header-img {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+h2 {
+  position: absolute; 
+   top: 200px; 
+   right: 50px; 
+   width: 20%;
+   text-align: center;
+   color: white;
+}
+
+.content-1 {
+  height: 570px;
+}
+
+.content-image-1  {
+  width: 60%;
+  margin-left: 50PX;
+}
+
+.content-2 {
+  height: 655px;
+}
+
+.content-image-2 {
+  width:40%;
+  margin-left: 100px;
+  float: left;
+}
+
+.interactive-1 {
+  margin-left: 200px;
+  width:450px;
+  height:550px;
+}
+.interactive-2 {
+  margin-left: 200px;
+  width:450px;
+  height:550px;
 }
