@@ -14,7 +14,7 @@ const Home = () => {
   return (
         <div>
         {/* <Carousels /> */}
-        <div class="header" >
+        <div className="header" >
           <img className="header-img" src={headerImage} alt="IMG"/>
           <h2>Let's explore the golden world !</h2>
         </div>

@@ -45,6 +45,14 @@ h2 {
    color: white;
 }
 
+.header-text {
+  position: absolute; 
+   top: 40px; 
+   right: auto; 
+   width: 100%;
+   text-align: center;
+   color: white;
+}
 .content-1 {
   height: 570px;
 }
@@ -73,4 +81,22 @@ h2 {
   margin-left: 200px;
   width:450px;
   height:550px;
+}
+
+.google-logo {
+  height: 600px;
+  width: 450px;
+  margin-left: 70px;
+}
+
+.brand-logo {
+  margin-left: 240px;
+}
+
+.cartoons {
+  width:100
+}
+
+.stamp {
+  width:30%
 }
