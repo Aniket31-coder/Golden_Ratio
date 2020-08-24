@@ -1,23 +1,25 @@
 import React from"react";
-import flower from "./images/flower.jpg";
-import Sunflower from "./images/Sunflower.jpg";
-import shell from "./images/shell.jpg";
+// import cnTower from "./images/cn-tower.gif";
+import architecture from "./images/architecture.jpg";
+import Tajmahal from "./images/taj-mahal.png";
+import notreDame from "./images/notre-dame.jpg";
 const  Carousel = require("react-responsive-carousel").Carousel;
 
 const Carousels = ()=>{
     return (
-        <div>
-            <Carousel showArrows onChange onClickItem onClickThumb showThumbs={false}>
+        <div className="carousel1">
+          <h3>Golden gallery !</h3>
+          <Carousel interval={3000} autoPlay={true} showThumbs={false}>
           <div>
-            <img className="image" src={shell} alt="shellimg"></img>
+            <img className="image" src={notreDame} alt="notreDame"></img>
           </div>
     
           <div>
-            <img className="image" src={flower} alt="flowerimg"></img>
+            <img className="image" src={Tajmahal} alt="Tajmahal"></img>
           </div>
     
           <div>
-            <img className="image" src={Sunflower} alt="Sunflowerimg"></img>
+            <img className="image" src={architecture} alt="architecture"></img>
           </div>
         </Carousel>
         </div>

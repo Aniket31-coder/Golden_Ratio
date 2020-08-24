@@ -19,7 +19,6 @@ const Design = ()=>{
         <div>
            <div className="header" >
                 <img className="header-img" src={designHeaderImage} alt="IMG"/>
-                <h2 className="header-text">Let's design using golden ratio !</h2>
             </div>
 
             <div className="logo-content">

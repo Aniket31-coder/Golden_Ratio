@@ -6,6 +6,7 @@ import Design from './components/screens/Design';
 import Architecture from './components/screens/Architecture';
 import Nature from './components/screens/Nature';
 import Navbar from './components/Navbar'
+import Human from './components/screens/Human';
 
 
 const Routing= ()=> {
@@ -22,6 +23,9 @@ const Routing= ()=> {
       </Route>
       <Route path ="/architecture">
       <Architecture />
+      </Route>
+      <Route path ="/human">
+      <Human />
       </Route>
     </Switch> 
    )

@@ -7,7 +7,7 @@ const Navbar = () => {
   
   return (
     <div>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar fixed-top trn navbar-expand-md navbar-light bg-light bg-dark">
         <img src={Logo} alt="Logoimage" class="navbar-brand"></img>
         <button
           class="navbar-toggler "
@@ -28,6 +28,11 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="/human">
+                Human Anatomy
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="/design">
                 Design
               </a>
@@ -42,6 +47,7 @@ const Navbar = () => {
                 Nature
               </a>
             </li>
+                        
           </ul>
         </div>
       </nav>
