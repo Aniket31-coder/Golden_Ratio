@@ -1,10 +1,7 @@
 import React from "react";
-import Logo from "./images/Logo.jpeg";
+import Logo from "./images/Logo_phi.png";
 
 const Navbar = () => {
-  
-  
-  
   return (
     <div>
       <nav class="navbar fixed-top trn navbar-expand-md navbar-light bg-light bg-dark">
@@ -47,7 +44,6 @@ const Navbar = () => {
                 Nature
               </a>
             </li>
-                        
           </ul>
         </div>
       </nav>

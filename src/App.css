@@ -3,7 +3,6 @@
   width: 3%;
 }
 
-
 .header {
   width: 100%;
   height: 700px;
@@ -21,15 +20,17 @@
 
 body {
   background-color: #d7cece;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h3 {
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   text-align: center;
   line-height: 5rem;
   color: #010c0e;
 }
-h4{
+h4 {
   text-align: center;
 }
 
@@ -37,53 +38,226 @@ h4{
   position: relative;
   width: 100%;
   height: 700px;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 h2 {
-  position: absolute; 
-   top: 200px; 
-   right: 50px; 
-   width: 20%;
-   text-align: center;
-   color: white;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  width: 20%;
+  text-align: center;
+  color: white;
 }
 
 .header-text {
-  position: absolute; 
-   top: 40px; 
-   right: auto; 
-   width: 100%;
-   text-align: center;
-   color: white;
+  position: absolute;
+  top: 40px;
+  right: auto;
+  width: 100%;
+  text-align: center;
+  color: white;
 }
 .content-1 {
-  height: 570px;
+  height: 820px;
+  display: inline-block;
 }
 
-.content-image-1  {
-  width: 60%;
-  margin-left: 50PX;
+.content-1 p,
+.allparas p {
+  text-align: justify;
+  clear: both;
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20.6px;
+  display: block;
+  padding-top: 35px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.content-image-1 {
+  width: 70%;
+  height: 60%;
+  display: block;
+  margin: 0 220px;
 }
 
 .content-2 {
-  height: 655px;
+  height: 1500px;
 }
 
-.content-image-2 {
-  width:40%;
-  margin-left: 100px;
+.content-2 p {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.content-image-2,
+.web-design img,
+.cars-design img {
+  width: 70%;
+  display: block;
+  margin: 0 220px;
+}
+
+.calculator {
+  padding-top: 80px;
   float: left;
 }
 
-.interactive-1 {
-  margin-left: 200px;
-  width:450px;
-  height:550px;
+.content-calculator {
+  float: left;
+  width: 350px !important;
+  padding-bottom: 0px !important;
+  position: relative;
+  top: 35px;
+  right: 12px;
 }
+
+.content-calculator h5 {
+  padding-bottom: 15px;
+}
+
+.fraction {
+  display: inline-block;
+  text-align: center;
+}
+
+.fraction,
+.top,
+.bottom {
+  position: relative;
+  top: 5px;
+  padding: 0 5px;
+}
+
+.bottom {
+  border-top: 1px solid #000;
+  display: block;
+}
+
+.rectangle-calculator {
+  float: left;
+  padding-top: 60px;
+  margin-right: 0px;
+}
+
+.content-calculator-1 {
+  float: left;
+  width: 350px !important;
+  padding-bottom: 0px !important;
+  position: relative;
+  top: 35px;
+  left: 18px;
+}
+
+.content-calculator-1 h5 {
+  padding-bottom: 15px;
+}
+
+.Formula {
+  clear: both;
+  padding-top: 20px;
+}
+
+.Formula p {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.content-image-3 {
+  float: right;
+  width: 250px;
+  height: 250px;
+  display: block;
+  position: relative;
+  top: -320px;
+  right: 30px;
+}
+
+.Formula h3 {
+  padding-left: 250px;
+}
+
+.interactive-1 {
+  display: block;
+  width: 480px;
+  height: 580px;
+  float: right;
+  margin-bottom: 80px;
+}
+
+.content-interactive-1 {
+  margin-left: 350px !important;
+  float: left;
+  width: 360px !important;
+  padding-bottom: 0px !important;
+  font-size: 20.6px;
+  padding-top: 20px !important;
+}
+
+.facts {
+  border-radius: 25px;
+  padding-left: 15px;
+  line-height: initial;
+  background: bisque;
+  padding-top: 1px;
+  margin-bottom: 15px;
+  padding-bottom: 7px;
+  width: 360px;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.facts h1 {
+  font-size: 21px;
+  margin-top: 14px !important;
+  margin-bottom: 7px !important;
+  font-weight: bolder;
+}
+
 .interactive-2 {
-  margin-left: 200px;
-  width:450px;
-  height:550px;
+  clear: both;
+  float: left;
+  display: block;
+  margin: 0 220px;
+  width: 580px;
+  height: 480px;
+  margin-right: 0px !important;
+  margin-left: 190px;
+}
+
+.content-interactive-2 {
+  float: right;
+  padding-bottom: 0px !important;
+  width: 350px !important;
+  margin-right: 280px !important;
+  font-size: 20.6px;
+  padding-top: 20px !important;
+}
+
+.content-interactive-2 .facts {
+  position: relative;
+  right: 3px;
+  width: 360px;
+  height: 200px;
 }
 
 .google-logo {
@@ -97,16 +271,42 @@ h2 {
 }
 
 .cartoons {
-  width:100
+  width: 450px;
+  margin-left: 100px;
+  transition: transform 0.3s;
+  margin-right: 180px;
+}
+
+.cartoons:hover {
+  transform: scale(0.75);
+}
+
+.cartoon1 {
+  width: 250px;
+  margin-right: 180px;
+  transition: transform 0.5s;
+}
+
+.cartoon2 {
+  transition: transform 0.7s;
+}
+
+.cartoon2:hover {
+  transform: scale(2.25);
+}
+
+.cartoon1:hover {
+  transform: scale(1.25);
 }
 
 .stamp {
-  width:30%
+  width: 30%;
+  padding-top: 25px;
 }
 
 .loader {
   border: 5px solid #f3f3f3; /* Light grey */
-  border-top: 5px solid #010a0f; 
+  border-top: 5px solid #010a0f;
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -114,8 +314,12 @@ h2 {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .upload {
@@ -127,13 +331,13 @@ h2 {
 }
 
 .carousel1 {
-  height:700px;
-  width:70%;
+  height: 700px;
+  width: 70%;
   margin: auto;
 }
 
 .slider-wrapper {
-  height:700px;
+  height: 700px;
 }
 
 .carousel1 img {
@@ -153,7 +357,7 @@ h2 {
 }
 
 .trn {
-  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   z-index: 99;
 }
 
