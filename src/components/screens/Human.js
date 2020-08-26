@@ -17,12 +17,12 @@ const Human = () => {
   useEffect(() => {
     if (url) {
       fetch(
-        "https://goldenratio.cognitiveservices.azure.com//face/v1.0/detect?returnFaceLandmarks=true",
+        "https://goldenratio1.cognitiveservices.azure.com//face/v1.0/detect?returnFaceLandmarks=true",
         {
           method: "post",
           headers: {
             "Content-Type": "application/json",
-            "Ocp-Apim-Subscription-Key": "2cd6257296bc4dc9ae76992bb02c171c",
+            "Ocp-Apim-Subscription-Key": "159a2a2fa2014e25958907301ebb2c3a",
           },
           body: JSON.stringify({
             url,
@@ -115,17 +115,7 @@ const Human = () => {
         </div>
         <div style={{ marginTop: "70px" }} className="result">
           {submitted && !goldenRatio && <div className="loader"></div>}
-          {goldenRatio && (
-            <p
-              style={{
-                textAlign: "center",
-                paddingTop: "10px",
-                fontStyle: "italic",
-              }}
-            >
-              Your beauty ratio is {goldenRatio}
-            </p>
-          )}
+          {goldenRatio && <span>Your beauty ratio is {goldenRatio}</span>}
         </div>
       </div>
       <div className="Human-content">

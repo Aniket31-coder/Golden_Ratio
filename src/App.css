@@ -331,6 +331,13 @@ h3 {
   margin: 49px auto;
 }
 
+.result span {
+  text-align: center;
+  padding-top: 10px;
+  font-style: italic;
+  padding-left: 20px;
+}
+
 .carousel1 {
   height: 700px;
   width: 70%;
