@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 .navbar-brand {
   border-radius: 50%;
   width: 3%;
@@ -19,7 +24,7 @@
 }
 
 body {
-  background-color: #d7cece;
+  background-color: #f8f9fa;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -75,7 +80,10 @@ h2 {
 
 .content-1 p,
 .allparas p,
-.Human-paras p {
+.Human-paras p,
+.Pyramids p,
+.The_Parthenon p,
+.Nature-page p {
   text-align: justify;
   clear: both;
   width: 800px;
@@ -243,6 +251,7 @@ h3 {
   height: 480px;
   margin-right: 0px !important;
   margin-left: 190px;
+  margin-bottom: 100px;
 }
 
 .content-interactive-2 {
@@ -324,7 +333,7 @@ h3 {
 }
 
 .upload {
-  background-color: floralwhite;
+  background-color: antiquewhite;
   height: 250px;
   padding: 30px;
   width: 30%;
@@ -339,8 +348,7 @@ h3 {
 }
 
 .carousel1 {
-  height: 700px;
-  width: 70%;
+  width: 100%;
   margin: auto;
 }
 
@@ -419,4 +427,98 @@ h3 {
   margin-right: 90px;
   position: relative;
   top: -60px;
+}
+
+.Pyramids img,
+.The_Parthenon img {
+  display: block;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.Pyramids h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.interactive-3 {
+  height: 600px;
+  width: 33%;
+  margin: auto;
+}
+
+.Nature-page p {
+  padding-bottom: 20px;
+  padding-top: 20px !important;
+}
+
+.Nature-page ul {
+  padding-top: 35px;
+}
+
+.Nature-page li {
+  text-align: center;
+  clear: both;
+  width: 800px;
+  list-style: square;
+  margin: 0 auto;
+  font-size: 20.6px;
+}
+
+.leaf-growth h3 {
+  padding-top: 20px;
+  padding-bottom: 0px !important;
+}
+
+.leaf-growth img,
+.Animal-content img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.face {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.person {
+  text-align: justify;
+  width: 200px;
+}
+
+.about-content p {
+  margin: 0 auto;
+  font-size: 20.6px;
+  display: block;
+}
+
+.card .card-title {
+  text-align: center;
+}
+
+.card-deck {
+  width: 1000px;
+  margin-left: 275px;
+  border: 0px;
+}
+
+.linkedin {
+  position: relative;
+  left: 110px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-top: 25px;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }

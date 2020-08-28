@@ -5,7 +5,6 @@ import headerImage from "../images/flower.jpg";
 import GoldenRatioExamples from "../images/golden-ratio-design-examples.jpg";
 import MathExample from "../images/Golden_ratio_math.jpg";
 import GoldenSpiral from "../images/Golden_spiral.gif";
-import Carousels from "../Carousel";
 import Iframe from "react-iframe";
 
 const Home = () => {
@@ -138,6 +137,10 @@ const Home = () => {
         The Calculator illustrates the approximation of Golden Spiral with the
         help of Golden Rectangle.
       </p>
+
+      <div className="footer" style={{ paddingTop: "15px" }}>
+        <p>©Copyrights Reserved 2020</p>
+      </div>
     </div>
   );
 };
