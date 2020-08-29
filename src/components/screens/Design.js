@@ -7,7 +7,6 @@ import cartoons from "../images/cartoons.jpg";
 import cartoon1 from "../images/cartoon1.jpg";
 import car from "../images/car.png";
 import cartoon2 from "../images/cartoon.png";
-import stamp1 from "../images/stamp1.jpg";
 import stamp2 from "../images/stamp2.jpg";
 import stamp3 from "../images/stamp3.gif";
 import stamp4 from "../images/stamp4.gif";

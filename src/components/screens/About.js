@@ -2,7 +2,6 @@ import React from "react";
 import face1 from "../images/myPic.jpg";
 import face2 from "../images/face2.jpeg";
 import face3 from "../images/face3.jpeg";
-import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 

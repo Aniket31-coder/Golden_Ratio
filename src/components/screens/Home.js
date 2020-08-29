@@ -15,7 +15,6 @@ const Home = () => {
         <img className="header-img" src={headerImage} alt="IMG" />
         <h2>Let's explore the golden world !</h2>
       </div>
-
       <div className="content-1">
         <h3>Revealing the Divine Ratio !</h3>
         <img
@@ -33,7 +32,6 @@ const Home = () => {
           pleasing to the eye.
         </p>
       </div>
-
       <div className="content-2">
         <h3>Understanding the Maths behind it !</h3>
         <p style={{ textAlign: "center" }}>
@@ -94,25 +92,29 @@ const Home = () => {
           alt="GoldenSpiral"
         />
         <h3>Try Yourself</h3>
-      </div>
-      <p className="content-interactive-1">
-        {" "}
+      </div>{" "}
+      <div className="content-interactive-1">
         <div className="facts">
           <b>
             <h1>Fun Fact:</h1>
           </b>
-          The convergents of the inverse of the Golden Ratio are the quotients
-          of successive numbers in the Fibonacci sequence.
+          <p>
+            The convergents of the inverse of the Golden Ratio are the quotients
+            of successive numbers in the Fibonacci sequence.
+          </p>
         </div>{" "}
-        {"\n"} The Calculator illustrates how the Golden Rectangle is formed and
-        also the growth of the continued fraction expansion of {"\n"}Φ =
-        <div class="fraction">
-          <span class="top">(1+√5)</span>
-          <span class="bottom">2</span>
-        </div>{" "}
-        {"\n"}, the golden ratio. Also shown are the convergents of its
-        continued fraction and a series of squares in the golden rectangle.
-      </p>
+        {"\n"}{" "}
+        <span>
+          The Calculator illustrates how the Golden Rectangle is formed and also
+          the growth of the continued fraction expansion of {"\n"}Φ =
+          <div className="fraction">
+            <span className="top">(1+√5)</span>
+            <span className="bottom">2</span>
+          </div>{" "}
+          {"\n"}, the golden ratio. Also shown are the convergents of its
+          continued fraction and a series of squares in the golden rectangle.
+        </span>
+      </div>
       <Iframe
         url="https://www.wolframcloud.com/obj/demonstrations/Published/GeometricAndContinuedFractionExpansionOfTheGoldenRatio?_view=EMBED"
         id="myId"
@@ -125,21 +127,27 @@ const Home = () => {
         className="interactive-2"
         display="initial"
       />
-      <p className="content-interactive-2">
+      <div className="content-interactive-2">
         <div className="facts">
           <b>
             <h1>Fun Fact:</h1>
           </b>
-          Good approximations to the Golden Rectangle can be obtained using the
-          Fibonacci Ratios.a golden spiral gets wider (or further from its
-          origin) by a factor of φ for every quarter turn it makes.
+          <p>
+            Good approximations to the Golden Rectangle can be obtained using
+            the Fibonacci Ratios.a golden spiral gets wider (or further from its
+            origin) by a factor of φ for every quarter turn it makes.
+          </p>
         </div>
-        The Calculator illustrates the approximation of Golden Spiral with the
-        help of Golden Rectangle.
-      </p>
-
-      <div className="footer" style={{ paddingTop: "15px" }}>
-        <p>©Copyrights Reserved 2020</p>
+        <p>
+          The Calculator illustrates the approximation of Golden Spiral with the
+          help of Golden Rectangle.
+        </p>
+        <div
+          className="footer"
+          style={{ paddingTop: "15px", fontSize: "15px" }}
+        >
+          <p>©Copyrights Reserved 2020</p>
+        </div>
       </div>
     </div>
   );

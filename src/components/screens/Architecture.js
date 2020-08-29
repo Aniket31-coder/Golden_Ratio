@@ -1,5 +1,4 @@
 import React from "react";
-import Sphinx from "../images/Sphinx.jpg";
 import pyramid from "../images/great-pyramid.jpg";
 import goldenTriangle from "../images/Golden-Triangle-Pythagorus.gif";
 import parthenon from "../images/Parthenon2.gif";
