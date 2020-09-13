@@ -20,7 +20,7 @@ const About = () => {
         We are a team of <del>crazily</del> passionate coders. We love to
         innovate things and solve problems using technologies.{" "}
       </p>
-      <p></p>
+      <div>    
       <CardDeck>
         <Card>
           <Card.Img variant="top" className="face" src={face1} alt="face1" />
@@ -64,6 +64,7 @@ const About = () => {
           </Card.Body>
         </Card>
       </CardDeck>
+      </div>   
       <div
         className="footer"
         style={{ textAlignLast: "center", paddingTop: "15px" }}
